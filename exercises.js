@@ -306,5 +306,14 @@
 //   }
 // }
 
+// var myFavMovie = {
+//     title: 'Snakes On A Plane',
+//     duration: 120,
+//     stars: ['Samuel Jackson', 'Snakes', 'A Plane']
+// };
 
-
+// function printMovie(movie) {
+//     console.log(movie.title + ' lasts for ' + movie.duration + ' minutes');
+//     console.log('It stars ' + movie.stars.join(', '));
+// }
+// printMovie(myFavMovie);
