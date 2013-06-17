@@ -115,19 +115,51 @@
 // greaterNum(10, 20)
 // greaterNum(1, 2)
 
-Write a function named helloWorld that:
-takes 1 argument, a language code (e.g. "es", "de", "en")
-returns "Hello, World" for the given language, for atleast 3 languages. It should default to returning English.
-Call that function for each of the supported languages and log the result to make sure it works.
+// Write a function named helloWorld that:
+// takes 1 argument, a language code (e.g. "es", "de", "en")
+// returns "Hello, World" for the given language, for atleast 3 languages. 
+// It should default to returning English.
+// Call that function for each of the supported languages and log the result to make sure it works.
+
+// function helloWorld(languageCode) {
+// 	if (languageCode == "es") {
+// 		console.log("Hello, world - es");
+// 	} else if (languageCode == "de") {
+// 		console.log("Hello, world - de");
+// 	}	else if (languageCode == "en") {
+// 		console.log("Hello, world - en");
+// 	} else {
+// 		console.log("Hello, world - en");
+// 	}
+// }
+
+// helloWorld("es")
+// helloWorld("en")
+// helloWorld("de")
+// helloWorld("en")
 
 
+// Write a function named assignGrade that:
+// takes 1 argument, a number score.
+// returns a grade for the score, either "A", "B", "C", "D", or "F".
+// Call that function for a few different scores and log the result to make sure it works.
 
+// function assignGrade(score) {
+// 	if (score > 90) {
+// 		return 'A';
+// 	} else if (score > 80) {
+// 		return 'B';
+// 	} else if (score > 70) {
+// 		return 'C';
+// 	} else if (score > 60) {
+// 		return 'D';
+// 	} else {
+// 		return 'F'
+// 	}
+// }
 
-
-
-
-
-
-
-
-
+// assignGrade(67)
+// assignGrade(63)
+// assignGrade(91)
+// assignGrade(87)
+// assignGrade(45)
