@@ -26,3 +26,29 @@ var possible = age - 1;
 
 var answerToAge = ("You are either " + age + " or " + possible)
 console.log(answerToAge)
+
+// Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+
+// Store your current age into a variable.
+// Store a maximum age into a variable.
+// Store an estimated amount per day (as a number).
+// Calculate how many you would eat total for the rest of your life.
+// Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+var favouriteSnack = "Fruit Roll-Ups"
+var currentAge = 35;
+var maximumAge = 99;
+var amountPerDay = 2;
+var lifeTimeSupplyCalculated = (maximumAge - currentAge) * (365 * amountPerDay);
+
+var lifeTimeSupply = ("You will need " + lifeTimeSupplyCalculated + " " + favouriteSnack + " to last you until the ripe old age of " + maximumAge )
+console.log(lifeTimeSupply)
+
+
+
+
+
+
+
+
+
