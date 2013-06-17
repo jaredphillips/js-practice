@@ -8,4 +8,5 @@ var jobTitle = "programmer";
 var geoLocation = "New York";
 var partner = "Rachel";
 
-console.log("You will be a " + jobTitle + " in " + geoLocation + ", and married to " + partner + " with " + children + " kids.")
+var future = ("You will be a " + jobTitle + " in " + geoLocation + ", and married to " + partner + " with " + children + " kids.")
+console.log(future)
