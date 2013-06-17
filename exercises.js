@@ -87,12 +87,47 @@
 // Call that function three times, passing in different values each time.
 // Bonus: Accept floating point values for amount per day, and round the result to a round number.
 
-function lifeTimeSupply(age, amountPerDay) {
-	var maxAge = 99;
-	var calculation = ((maxAge - age) * (amountPerDay * 365));
-	console.log("You will need " + calculation + " to last you until the ripe old age of " + maxAge);
-}
+// function lifeTimeSupply(age, amountPerDay) {
+// 	var maxAge = 99;
+// 	var calculation = ((maxAge - age) * (amountPerDay * 365));
+// 	console.log("You will need " + calculation + " to last you until the ripe old age of " + maxAge);
+// }
 
-lifeTimeSupply(56, 3)
-lifeTimeSupply(26, 10)
-lifeTimeSupply(42, 2)
+// lifeTimeSupply(56, 3)
+// lifeTimeSupply(26, 10)
+// lifeTimeSupply(42, 2)
+
+// Write a function named greaterNum that:
+// takes 2 arguments, both numbers.
+// returns whichever number is the greater (higher) number.
+// Call that function 2 times with different number pairs, and log the output to make sure it works 
+// (e.g. "The greater number of 5 and 10 is 10.").
+
+// function greaterNum (num1, num2) {
+// 	if (num1 > num2) {
+// 		console.log(num1);
+// 	} else {
+// 		console.log(num2);
+// 	}
+// }
+
+// greaterNum(5, 10)
+// greaterNum(10, 20)
+// greaterNum(1, 2)
+
+Write a function named helloWorld that:
+takes 1 argument, a language code (e.g. "es", "de", "en")
+returns "Hello, World" for the given language, for atleast 3 languages. It should default to returning English.
+Call that function for each of the supported languages and log the result to make sure it works.
+
+
+
+
+
+
+
+
+
+
+
+
